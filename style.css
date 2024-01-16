@@ -3,6 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #252525 #dfe9eb;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    height: 2px;
+    width: 2px;
+}
+*::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: #dfe9eb;
+}
+
+*::-webkit-scrollbar-track:hover {
+    background-color: #b8c0c2;
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: #b8c0c2;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #252525;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #172611;
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: #1e3117;
+}
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #252525 #2b2d2d;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    height: 2px;
+    width: 2px;
+}
+*::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background-color: #2b2d2d;
+}
+
+*::-webkit-scrollbar-track:hover {
+    background-color: #141515;
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: #454849;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: #252525;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #172611;
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: #1e3117;
+}
 
 body {
     font-family: "Inter", sans-serif;
